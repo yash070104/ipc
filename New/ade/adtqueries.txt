@@ -1,6 +1,0 @@
-CREATE TABLE Images (
-    ImageID INT PRIMARY KEY IDENTITY(1,1),
-    ImageData VARBINARY(MAX)
-)
-INSERT INTO Images (ImageData) VALUES (0x<your_hexadecimal_image_data>)
-DELETE FROM Images WHERE ImageID = <image_id>
